@@ -5,6 +5,7 @@ import './ContactList.css';
 
 const ContactList = () => {
     const contacts = useSelector(getContacts);
+    console.log("ContactList  contacts:", contacts)
     const filterValue = useSelector(getFilterValue);
     const dispatch = useDispatch ();
 
